@@ -1,5 +1,5 @@
 "age","sex","bmi","children","smoker","region","charges"
-19,"female",27.9,0,"yes","southwest",16884.924
+19,"female",27.9,0,NA,"southwest",16884.924
 18,"male",33.77,1,"no","southeast",1725.5523
 28,"male",33,3,"no","southeast",4449.462
 33,"male",22.705,0,"no","northwest",21984.47061
@@ -12,8 +12,8 @@
 25,"male",26.22,0,"no","northeast",2721.3208
 62,"female",26.29,0,"yes","southeast",27808.7251
 23,"male",34.4,0,"no","southwest",1826.843
-56,"female",39.82,0,"no","southeast",11090.7178
-27,"male",42.13,0,"yes","southeast",39611.7577
+56,"female",39.82,0,"no","southeast",-1
+27,"male",42.13,0,"yes","southeast",NA
 19,"male",24.6,1,"no","southwest",1837.237
 52,"female",30.78,1,"no","northeast",10797.3362
 23,"male",23.845,0,"no","northeast",2395.17155
@@ -118,7 +118,7 @@
 58,"male",49.06,0,"no","southeast",11381.3254
 29,"female",27.94,1,"yes","southeast",19107.7796
 49,"female",27.17,0,"no","southeast",8601.3293
-37,"female",23.37,2,"no","northwest",6686.4313
+37,"female",23.37,2,"no","northwest",-1
 44,"male",37.1,2,"no","southwest",7740.337
 18,"male",23.75,0,"no","northeast",1705.6245
 20,"female",28.975,0,"no","northwest",2257.47525
@@ -161,7 +161,7 @@
 50,"female",27.83,3,"no","southeast",19749.38338
 42,"female",26.6,0,"yes","northwest",21348.706
 18,"female",36.85,0,"yes","southeast",36149.4835
-54,"male",39.6,1,"no","southwest",10450.552
+54,"male",39.6,1,NA,"southwest",10450.552
 32,"female",29.8,2,"no","southwest",5152.134
 37,"male",29.64,0,"no","northwest",5028.1466
 47,"male",28.215,4,"no","northeast",10407.08585
@@ -187,7 +187,7 @@
 36,"male",41.895,3,"yes","northeast",43753.33705
 26,"female",29.92,2,"no","southeast",3981.9768
 30,"female",30.9,3,"no","southwest",5325.651
-41,"female",32.2,1,"no","southwest",6775.961
+41,"female",32.2,1,"no","southwest",-1
 29,"female",32.11,2,"no","northwest",4922.9159
 61,"male",31.57,0,"no","southeast",12557.6053
 36,"female",26.2,0,"no","southwest",4883.866
@@ -400,7 +400,7 @@
 64,"male",25.6,2,"no","southwest",14988.432
 18,"female",38.17,0,"no","southeast",1631.6683
 51,"female",20.6,0,"no","southwest",9264.797
-47,"male",47.52,1,"no","southeast",8083.9198
+47,"male",47.52,1,NA,"southeast",8083.9198
 64,"female",32.965,0,"no","northwest",14692.66935
 49,"male",32.3,3,"no","northwest",10269.46
 31,"male",20.4,0,"no","southwest",3260.199
@@ -429,7 +429,7 @@
 18,"female",29.165,0,"no","northeast",7323.734819
 21,"female",16.815,1,"no","northeast",3167.45585
 27,"female",30.4,3,"no","northwest",18804.7524
-19,"male",33.1,0,"no","southwest",23082.95533
+19,"male",33.1,0,NA,"southwest",23082.95533
 29,"female",20.235,2,"no","northwest",4906.40965
 42,"male",26.9,0,"no","southwest",5969.723
 60,"female",30.5,0,"no","southwest",12638.195
@@ -442,8 +442,8 @@
 31,"female",32.68,1,"no","northwest",4738.2682
 33,"female",33.5,0,"yes","southwest",37079.372
 18,"male",43.01,0,"no","southeast",1149.3959
-59,"female",36.52,1,"no","southeast",28287.89766
-56,"male",26.695,1,"yes","northwest",26109.32905
+59,"female",36.52,1,"no","southeast",NA
+NA,"male",26.695,1,"yes","northwest",26109.32905
 45,"female",33.1,0,"no","southwest",7345.084
 60,"male",29.64,0,"no","northeast",12730.9996
 56,"female",25.65,0,"no","northwest",11454.0215
@@ -459,7 +459,7 @@
 57,"female",30.495,0,"no","northwest",11840.77505
 56,"male",39.6,0,"no","southwest",10601.412
 40,"female",33,3,"no","southeast",7682.67
-49,"female",36.63,3,"no","southeast",10381.4787
+49,"female",36.63,3,"no",NA,10381.4787
 42,"male",30,0,"yes","southwest",22144.032
 62,"female",38.095,2,"no","northeast",15230.32405
 56,"male",25.935,0,"no","northeast",11165.41765
@@ -472,7 +472,7 @@
 27,"male",32.67,0,"no","southeast",2497.0383
 18,"female",30.115,0,"no","northeast",2203.47185
 19,"female",29.8,0,"no","southwest",1744.465
-47,"female",33.345,0,"no","northeast",20878.78443
+47,"female",33.345,0,"no",NA,20878.78443
 54,"male",25.1,3,"yes","southwest",25382.297
 61,"male",28.31,1,"yes","northwest",28868.6639
 24,"male",28.5,0,"yes","northeast",35147.52848
@@ -491,7 +491,7 @@
 53,"male",31.16,1,"no","northwest",10461.9794
 19,"female",32.9,0,"no","southwest",1748.774
 61,"female",25.08,0,"no","southeast",24513.09126
-18,"female",25.08,0,"no","northeast",2196.4732
+18,"female",25.08,0,"no","northeast",-1
 61,"male",43.4,0,"no","southwest",12574.049
 21,"male",25.7,4,"yes","southwest",17942.106
 20,"male",27.93,0,"no","northeast",1967.0227
@@ -530,7 +530,7 @@
 46,"male",39.425,1,"no","northeast",8342.90875
 18,"male",25.46,0,"no","northeast",1708.0014
 57,"male",42.13,1,"yes","southeast",48675.5177
-62,"female",31.73,0,"no","northeast",14043.4767
+NA,"female",31.73,0,"no","northeast",14043.4767
 59,"male",29.7,2,"no","southeast",12925.886
 37,"male",36.19,0,"no","southeast",19214.70553
 64,"male",40.48,0,"no","southeast",13831.1152
@@ -643,7 +643,7 @@
 42,"male",28.31,3,"yes","northwest",32787.45859
 61,"male",33.915,0,"no","northeast",13143.86485
 23,"female",34.96,3,"no","northwest",4466.6214
-43,"male",35.31,2,"no","southeast",18806.14547
+43,"male",35.31,2,"no","southeast",NA
 48,"male",30.78,3,"no","northeast",10141.1362
 39,"male",26.22,1,"no","northwest",6123.5688
 40,"female",23.37,3,"no","northeast",8252.2843
@@ -697,7 +697,7 @@
 26,"female",40.185,0,"no","northwest",3201.24515
 53,"female",32.3,2,"no","northeast",29186.48236
 41,"male",35.75,1,"yes","southeast",40273.6455
-56,"male",33.725,0,"no","northwest",10976.24575
+56,"male",33.725,0,"no","northwest",-1
 23,"female",39.27,2,"no","southeast",3500.6123
 21,"female",34.87,0,"no","southeast",2020.5523
 50,"female",44.745,0,"no","northeast",9541.69555
@@ -746,7 +746,7 @@
 50,"male",26.41,0,"no","northwest",8827.2099
 50,"female",30.115,1,"no","northwest",9910.35985
 34,"male",27,2,"no","southwest",11737.84884
-19,"male",21.755,0,"no","northwest",1627.28245
+19,"male",21.755,0,"no",NA,1627.28245
 47,"female",36,1,"no","southwest",8556.907
 28,"male",30.875,0,"no","northwest",3062.50825
 37,"female",26.4,0,"yes","southeast",19539.243
@@ -892,7 +892,7 @@
 64,"female",26.885,0,"yes","northwest",29330.98315
 36,"female",29.04,4,"no","southeast",7243.8136
 54,"male",24.035,0,"no","northeast",10422.91665
-47,"male",38.94,2,"yes","southeast",44202.6536
+47,"male",38.94,2,"yes",NA,44202.6536
 62,"male",32.11,0,"no","northeast",13555.0049
 61,"female",44,0,"no","southwest",13063.883
 43,"female",20.045,2,"yes","northeast",19798.05455
@@ -935,7 +935,7 @@
 45,"female",35.3,0,"no","southwest",7348.142
 32,"male",37.18,2,"no","southeast",4673.3922
 59,"female",27.5,0,"no","southwest",12233.828
-44,"male",29.735,2,"no","northeast",32108.66282
+44,"male",29.735,2,NA,"northeast",32108.66282
 39,"female",24.225,5,"no","northwest",8965.79575
 18,"male",26.18,2,"no","southeast",2304.0022
 53,"male",29.48,0,"no","southeast",9487.6442
@@ -993,7 +993,7 @@
 38,"female",27.835,2,"no","northeast",7144.86265
 50,"female",31.6,2,"no","southwest",10118.424
 38,"male",28.27,1,"no","southeast",5484.4673
-27,"female",20.045,3,"yes","northwest",16420.49455
+27,"female",20.045,3,"yes","northwest",NA
 39,"female",23.275,3,"no","northeast",7986.47525
 39,"female",34.1,3,"no","southwest",7418.522
 63,"female",36.85,0,"no","southeast",13887.9685
@@ -1081,7 +1081,7 @@
 63,"male",33.66,3,"no","southeast",15161.5344
 18,"male",21.78,2,"no","southeast",11884.04858
 32,"male",27.835,1,"no","northwest",4454.40265
-38,"male",19.95,1,"no","northwest",5855.9025
+NA,"male",19.95,1,"no","northwest",5855.9025
 32,"male",31.5,1,"no","southwest",4076.497
 62,"female",30.495,2,"no","northwest",15019.76005
 39,"female",18.3,5,"yes","southwest",19023.26
@@ -1092,7 +1092,7 @@
 47,"male",36.19,0,"yes","southeast",41676.0811
 55,"female",29.83,0,"no","northeast",11286.5387
 23,"male",32.7,3,"no","southwest",3591.48
-22,"female",30.4,0,"yes","northwest",33907.548
+NA,"female",30.4,0,"yes","northwest",33907.548
 50,"female",33.7,4,"no","southwest",11299.343
 18,"female",31.35,4,"no","northeast",4561.1885
 51,"female",34.96,2,"yes","northeast",44641.1974
@@ -1121,7 +1121,7 @@
 30,"female",19.95,3,"no","northwest",5693.4305
 23,"female",31.4,0,"yes","southwest",34166.273
 46,"male",38.17,2,"no","southeast",8347.1643
-53,"female",36.86,3,"yes","northwest",46661.4424
+53,"female",36.86,3,"yes","northwest",NA
 27,"female",32.395,1,"no","northeast",18903.49141
 23,"female",42.75,1,"yes","northeast",40904.1995
 63,"female",25.08,0,"no","northwest",14254.6082
@@ -1212,7 +1212,7 @@
 36,"male",30.875,1,"no","northwest",5373.36425
 39,"male",34.1,2,"no","southeast",23563.01618
 18,"male",21.47,0,"no","northeast",1702.4553
-52,"female",33.3,2,"no","southwest",10806.839
+52,"female",33.3,2,"no","southwest",-1
 27,"female",31.255,1,"no","northwest",3956.07145
 18,"male",39.14,0,"no","northeast",12890.05765
 40,"male",25.08,0,"no","southeast",5415.6612
