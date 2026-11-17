@@ -1,0 +1,8 @@
+Column,What it holds
+RecordID,Unique record identifier
+GeoJoinID,Geography code
+GeoType,Geography type
+IndicatorID,Indicator id
+IndicatorMeasure,"Indicator and measure, separated by :: "
+TimePeriod,Time period
+DataValue,Data value
