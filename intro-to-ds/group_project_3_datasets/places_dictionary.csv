@@ -1,4 +1,4 @@
-Column,What it holds
+Column,Description
 GeoJoinID,Geography code
 GeoType,Geography type
 PlaceName,Name of the geographic area

@@ -1,4 +1,4 @@
-Column,What it holds
+Column,Description
 RecordID,Unique record identifier
 GeoJoinID,Geography code
 GeoType,Geography type
