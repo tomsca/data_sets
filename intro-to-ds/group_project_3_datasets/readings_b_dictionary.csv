@@ -1,8 +1,8 @@
 Column,Description
 RecordID,Unique record identifier
 GeoJoinID,Geography code
-GeoType,Geography type
+GeoType,Geography type. Use the UHF42 neighborhoods. Do not use the borough rows or the citywide row.
 IndicatorID,Indicator id
-IndicatorMeasure,"Indicator and measure, separated by :: "
-TimePeriod,Time period
-DataValue,Data value
+IndicatorMeasure,"Indicator and measure, separated by :: . Use Fine particles (PM 2.5), Nitrogen dioxide (NO2), Annual mean, Summer mean, and Winter mean. Do not use Annual average concentration."
+TimePeriod,Time period. Use 2024.
+DataValue,Data value. Fine particles are in micrograms per cubic meter. Nitrogen dioxide is in parts per billion.

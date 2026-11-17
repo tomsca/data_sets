@@ -1,4 +1,4 @@
 Column,Description
 IndicatorID,Indicator id
-IndicatorName,Name of the indicator
-Units,Unit of the indicator
+IndicatorName,"Name of the indicator. Fine particles (PM 2.5). Nitrogen dioxide (NO2)."
+Units,Unit of the indicator. Fine particles are in micrograms per cubic meter. Nitrogen dioxide is in parts per billion.
