@@ -1,0 +1,26 @@
+IndicatorID,IndicatorName,Units
+639,Deaths due to PM2.5,"per 100,000 adults"
+640,Boiler emissions (SO2),per square kilometer
+641,Boiler emissions (PM2.5),per square kilometer
+646,Outdoor Air Toxics - Benzene,mcg/m3
+647,Outdoor Air Toxics - Formaldehyde,mcg/m3
+648,Asthma emergency department visits due to PM2.5,"per 100,000 children"
+650,Respiratory hospitalizations due to PM2.5 (age 20+),"per 100,000 adults"
+651,Cardiovascular hospitalizations due to PM2.5 (age 40+),"per 100,000 adults"
+652,Cardiac and respiratory deaths due to Ozone,"per 100,000"
+653,Asthma emergency department visits due to Ozone,"per 100,000 children"
+655,Asthma hospitalizations due to Ozone,"per 100,000 children"
+657,Asthma emergency department visits due to PM2.5,"per 100,000 adults"
+659,Asthma emergency department visits due to Ozone,"per 100,000 adults"
+661,Asthma hospitalizations due to Ozone,"per 100,000 adults"
+643,Traffic density,per square mile
+644,Traffic density (cars),per square mile
+645,Traffic density (trucks),per square mile
+1433,Nitrogen dioxide (NO2),ppb
+1432,Nitrogen dioxide (NO2),ppb
+1431,Nitrogen dioxide (NO2),ppb
+1427,Fine particles (PM 2.5),mcg/m3
+1426,Fine particles (PM 2.5),mcg/m3
+1425,Fine particles (PM 2.5),mcg/m3
+1435,Ozone (O3),ppb
+642,Boiler emissions (NOx),per square kilometer
