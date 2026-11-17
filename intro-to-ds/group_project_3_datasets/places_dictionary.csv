@@ -1,4 +1,4 @@
 Column,Description
-GeoJoinID,Geography code
-GeoType,Geography type
+GeoJoinID,"Geography code. There is no borough column for the UHF42 neighborhoods. Assign the borough from the UHF42 code: 101-107 Bronx, 201-211 Brooklyn, 301-310 Manhattan, 401-410 Queens, 501-504 Staten Island."
+GeoType,Geography type. Use the UHF42 neighborhoods. The borough rows and the citywide row are summaries. Do not use them.
 PlaceName,Name of the geographic area
