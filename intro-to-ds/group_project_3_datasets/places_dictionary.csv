@@ -1,4 +1,4 @@
 Column,Description
-GeoJoinID,"Geography code. For UHF42, 101-107 is Bronx, 201-211 is Brooklyn, 301-310 is Manhattan, 401-410 is Queens, and 501-504 is Staten Island."
-GeoType,Geography type. Use the UHF42 neighborhoods. Do not use the borough rows or the citywide row.
+GeoJoinID,Geography code
+GeoType,Geography type
 PlaceName,Name of the geographic area
